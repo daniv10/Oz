@@ -1,3 +1,7 @@
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+ % Sideway trends detector enable to find a stock that is in flat sideway trend, which give an indication to buy or sell a stock. %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
 function mem=movingAverage(s,num,shift) % movingAverage function (s=vector of values, num=number of moving average, shift=number of shifting days)
 len=length(s); % define len as length of the vector s.
 nana=nan(1,num-1+shift); % chaining number of NaN's into nana according to the demanded moving average.
